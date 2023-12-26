@@ -3,7 +3,10 @@
     (removeTab)="locationService.removeLocation($event)"
 >
     <app-tab
-        *ngFor="let location of currentConditionsByZipSortedByTimestamp(); let last = last;"
+        *ngFor="
+            let location of currentConditionsByZipSortedByTimestamp();
+            let last = last
+        "
         [active]="last"
         [tabData]="{
             id: location.zip,
@@ -29,6 +32,7 @@
                 [src]="
                     weatherService.getWeatherIcon(location.data.weather[0].id)
                 "
+                alt="weather icon"
             />
         </div>
     </app-tab>

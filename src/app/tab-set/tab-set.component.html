@@ -5,10 +5,10 @@
         [ngClass]="{ active: tab.active }"
     >
         <a class="btn btn-link" [routerLink]="" (click)="setActiveTab(i)"
-        ><span
-            style="margin-right: 1rem"
-            [innerHTML]="tab.tabData.title"
-        ></span>
+            ><span
+                style="margin-right: 1rem"
+                [innerHTML]="tab.tabData.title"
+            ></span>
             <button
                 class="btn btn-danger"
                 title="Remove"
@@ -16,8 +16,7 @@
             >
                 <span>&times;</span>
             </button>
-        </a
-        >
+        </a>
     </li>
 </ul>
 <ng-content></ng-content>
