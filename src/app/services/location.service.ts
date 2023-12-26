@@ -10,11 +10,9 @@ export class LocationService {
 
     constructor(private storageService: StorageService) {
         const locString: string = storageService.getItem(LOCATIONS)
-        if (locString) {
-            this._locations = new BehaviorSubject<string[]>(
-                JSON.parse(locString)
-            )
-        }
+        this._locations = new BehaviorSubject<string[]>(
+            locString ? JSON.parse(locString) : []
+        )
     }
 
     public addLocation(zipcode: string): void {

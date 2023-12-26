@@ -29,7 +29,7 @@ export class WeatherService {
     private expiresInSeconds: number = 1000 * 7200 // Change 7200 (2 hours in seconds) to modify expiration time
     private static ICON_URL: string =
         'https://raw.githubusercontent.com/udacity/Sunshine-Version-2/sunshine_master/app/src/main/res/drawable-hdpi/'
-    private static URL: string = 'http://api.openweathermap.org/data/2.5'
+    private static URL: string = 'https://api.openweathermap.org/data/2.5'
 
     constructor(
         private http: HttpClient,
