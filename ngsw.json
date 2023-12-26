@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1703610963597,
+  "timestamp": 1703611207522,
   "index": "https://ajanickiv.github.io/ng-weather/index.html",
   "assetGroups": [
     {
@@ -13,14 +13,12 @@
       "urls": [
         "https://ajanickiv.github.io/ng-weather/favicon.ico",
         "https://ajanickiv.github.io/ng-weather/index.html",
-        "https://ajanickiv.github.io/ng-weather/main.012a60dccf2cf54f.js",
+        "https://ajanickiv.github.io/ng-weather/main.ffd7d91927b6cb63.js",
         "https://ajanickiv.github.io/ng-weather/polyfills.706934d35d3aaec2.js",
         "https://ajanickiv.github.io/ng-weather/runtime.8ec97a0ffe2636bf.js",
         "https://ajanickiv.github.io/ng-weather/styles.62da56fab7c23777.css"
       ],
-      "patterns": [
-        "https:\\/\\/ajanickiv\\.github\\.io\\/.*"
-      ]
+      "patterns": []
     },
     {
       "name": "assets",
@@ -47,8 +45,7 @@
     {
       "name": "WeatherAPI",
       "patterns": [
-        "https:\\/\\/api\\.openweathermap\\.org\\/data\\/.*",
-        "https:\\/\\/ajanickiv\\.github\\.io\\/.*"
+        "https:\\/\\/api\\.openweathermap\\.org\\/data\\/.*"
       ],
       "strategy": "freshness",
       "maxAge": 21600000,
@@ -69,8 +66,8 @@
     "https://ajanickiv.github.io/ng-weather/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://ajanickiv.github.io/ng-weather/assets/weather.json": "575ea2aec95c811c176c8c092e4dd605b21ade75",
     "https://ajanickiv.github.io/ng-weather/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://ajanickiv.github.io/ng-weather/index.html": "578fd7fa08f0c61f4f3e96930ddc431757043e42",
-    "https://ajanickiv.github.io/ng-weather/main.012a60dccf2cf54f.js": "f74c5537df114dbca9be4d5c4709865f1dd266c1",
+    "https://ajanickiv.github.io/ng-weather/index.html": "f5ebc6aa2f3f16359ebf0458c6854b9ecee6d751",
+    "https://ajanickiv.github.io/ng-weather/main.ffd7d91927b6cb63.js": "2cf7c302586e7f3c4f7858c8e2117b2af125a7a7",
     "https://ajanickiv.github.io/ng-weather/polyfills.706934d35d3aaec2.js": "0461fd498b5dcbe4f0a7d1e80f477e4978fcfb33",
     "https://ajanickiv.github.io/ng-weather/runtime.8ec97a0ffe2636bf.js": "b2f1671c077760a4b0bac09ad76c6e9e9749cc2b",
     "https://ajanickiv.github.io/ng-weather/styles.62da56fab7c23777.css": "c54110b93e86a53798e788d07bf736e419d2c9d8"
