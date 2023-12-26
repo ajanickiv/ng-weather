@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1703610815551,
+  "timestamp": 1703610918082,
   "index": "https://ajanickiv.github.io/ng-weather/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,7 @@
         "https://ajanickiv.github.io/ng-weather/styles.62da56fab7c23777.css"
       ],
       "patterns": [
-        "https:\\/\\/ajanickiv\\.github\\.io\\/[^/]*"
+        "https:\\/\\/ajanickiv\\.github\\.io\\/.*"
       ]
     },
     {
