@@ -1,4 +1,4 @@
-<div *ngIf="!(loadingForecast$ | async)">
+<div *ngIf="(loadingForecast$ | async) === false">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title">
@@ -21,6 +21,7 @@
                             dailyForecast.weather[0].id
                         )
                     "
+                    alt="weather icon"
                     class="icon"
                 />
             </li>
