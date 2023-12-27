@@ -12,8 +12,6 @@ import { MainPageComponent } from './main-page/main-page.component'
 import { RouterModule } from '@angular/router'
 import { routing } from './app.routing'
 import { HttpClientModule } from '@angular/common/http'
-import { ServiceWorkerModule } from '@angular/service-worker'
-import { environment } from '../environments/environment'
 import { TabSetComponent } from './tab-set/tab-set.component'
 import { TabComponent } from './tab-set/tab/tab.component'
 import { StorageService } from './services/storage.service'
@@ -32,9 +30,6 @@ import { StorageService } from './services/storage.service'
         HttpClientModule,
         RouterModule,
         routing,
-        ServiceWorkerModule.register('/ngsw-worker.js', {
-            enabled: environment.production,
-        }),
         TabSetComponent,
         TabComponent,
     ],
